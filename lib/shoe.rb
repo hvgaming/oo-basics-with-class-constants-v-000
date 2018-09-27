@@ -11,8 +11,5 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  def brand=(brand)
-    @genre = brand
-    BRAND << brand unless BRANDS.include?(brand)
-  end
+ 
 end
