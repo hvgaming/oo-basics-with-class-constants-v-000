@@ -10,9 +10,9 @@ class Shoe
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
-  brands = ["Uggs", "Rainbow", "Nike", "Nike"]
+  
   def brands=(brands)
-    
+    brands = ["Uggs", "Rainbow", "Nike", "Nike"]
     @genre = brands
     BRAND << brands 
   end
