@@ -3,7 +3,7 @@ class Shoe
   attr_reader :brand
     BRANDS = ["Uggs", "Rainbow"]
   def initialize(brand)
-    @brand = brand
+    @brand = brand unless BRANDS.include?(brand)
   end
 
   def cobble
