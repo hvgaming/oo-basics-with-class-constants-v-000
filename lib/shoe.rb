@@ -12,7 +12,7 @@ class Shoe
   end
   
   def brands=(brands)
-    brands = ["Uggs", "Rainbow", "Nike", "Nike"]
+    brands = ["Uggs", "Rainbow", "Nike"]
     @genre = brands
     BRAND << brands 
   end
